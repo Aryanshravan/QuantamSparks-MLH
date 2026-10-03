@@ -1,0 +1,11 @@
+{
+  "name": "issuepilot-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered open-source contribution assistant using Google Gemma and Hugging Face Inference Providers",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "test:ai": "node server/src/scripts/testInference.js"
+  }
+}
